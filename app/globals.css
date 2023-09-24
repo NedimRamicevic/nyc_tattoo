@@ -23,3 +23,7 @@ body {
 .navbar {
   @apply py-[22px] px-[50px];
 }
+
+.btn {
+  @apply bg-transparent text-white  border-transparent text-3xl;
+}

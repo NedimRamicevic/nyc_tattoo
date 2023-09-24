@@ -6,7 +6,7 @@ import MenuIcon from './menuIcon'
 
 const Navbar = () => {
   return (
-    <div className="navbar flex flex-row">
+    <div className="navbar flex flex-row z-100 absolute top-0 ">
         <div className="navbar__logo bg-black ">
             <Image src="/logo.png" width={120} height={600} alt="logo" />
         </div>
