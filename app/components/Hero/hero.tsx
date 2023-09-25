@@ -1,12 +1,13 @@
 'use client'
 import React from 'react'
 import Carousel from '../Carousel/carousel'
+import data from '@/data/data.json'
 
 const Hero = () => {
     const [slide, setSlide] = React.useState(1)    
-
+    const artists = data.artists;
     const slidePlus = () => {
-        if(slide === 4){
+        if(slide === artists.length){
             setSlide(1)
         }
         else setSlide(slide + 1)
@@ -19,13 +20,22 @@ const Hero = () => {
     }
 
   return (
-    <div className=' w-full flex flex-row h-[100vh]  top-0 bg-black z-0'>
-        <div className='flex flex-col w-full justify-center items-center gap-6'>
-            <div>Selam</div>
-        <div className=" flex gap-12 transform ">
-        <a onClick={slideMinus} href={`#slide${slide}`} className="btn btn-circle ">❮</a> 
-        <a onClick={slidePlus} href={`#slide${slide}`} className="btn btn-circle">❯</a>
-      </div>
+    <div className=' w-full flex flex-row h-[100vh] justify-center top-0 bg-black z-0'>
+        <div className='flex flex-row w-full justify-start items-center '>
+            <div className='flex flex-row justify-start items-center'>
+                <div>Photos </div>
+                <div className='flex flex-col justify-center items-center gap-8 pt-12'>
+                <h1 className='text-2xl'>Artist</h1>
+                <div className=' text-4xl'>
+                    {artists[slide-1].name}
+                </div>
+                <div className='flex justify-center items-center rounded-full'>View Portfolio</div>
+                <div className=" flex gap-12 transform ">
+                    <a onClick={slideMinus} href={`#slide${slide}`} className="btn btn-circle ">❮</a> 
+                    <a onClick={slidePlus} href={`#slide${slide}`} className="btn btn-circle">❯</a>
+                </div>
+                </div>
+            </div>
         </div>
         <Carousel/>
     </div>

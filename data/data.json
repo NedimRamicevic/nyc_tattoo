@@ -1,0 +1,102 @@
+{
+  "artists": [
+    {
+      "id": 1,
+      "name": "Nedim",
+      "tattooes": {
+        "tattoo_photos": [
+          {
+            "id": 1,
+            "url": "https://preview.redd.it/77cpsmouhgua1.jpg?width=640&crop=smart&auto=webp&s=2fa5ac5b01eb6a84082e5d5c4be2869e68d783d3",
+            "alt": "carousel item",
+            "tattoo_type": 1
+          },
+          {
+            "id": 2,
+            "url": "https://preview.redd.it/24rfrapgua2b1.jpg?width=640&crop=smart&auto=webp&s=e20bafe53659b8dada2c8d9ce858e2f1bb755238",
+            "alt": "carousel item",
+            "tattoo_type": 1
+          }
+        ]
+      }
+    },
+    {
+      "id": 2,
+      "name": "Neim",
+      "tattooes": {
+        "tattoo_photos": [
+          {
+            "id": 3,
+            "url": "https://preview.redd.it/k8n3xi705tlb1.jpg?width=640&crop=smart&auto=webp&s=95b889521fff2e327fee0010e6b23fa5ade447bc",
+            "alt": "carousel item",
+            "tattoo_type": 2
+          }
+        ]
+      }
+    },
+    {
+      "id": 3,
+      "name": "Ali",
+      "tattooes": {
+        "tattoo_photos": [
+          {
+            "id": 4,
+            "url": "https://preview.redd.it/3jvnxsze9tmb1.jpg?width=640&crop=smart&auto=webp&s=3cacf5f2f862543602a5563bc7f01cf3bba71840",
+            "alt": "carousel item",
+            "tattoo_type": 3
+          },
+          {
+            "id": 6,
+            "url": "https://preview.redd.it/gwv2un2nhmpb1.jpg?width=960&crop=smart&auto=webp&s=3f423d8cd26df8a95dde11e9102c1ddd98132b5d",
+            "alt": "carousel item",
+            "tattoo_type": 3
+          }
+        ]
+      }
+    }
+  ],
+  "tattoo_photos": [
+    {
+      "id": 1,
+      "url": "https://preview.redd.it/77cpsmouhgua1.jpg?width=640&crop=smart&auto=webp&s=2fa5ac5b01eb6a84082e5d5c4be2869e68d783d3",
+      "alt": "carousel item",
+      "tattoo_type": 1
+    },
+    {
+      "id": 2,
+      "url": "https://preview.redd.it/24rfrapgua2b1.jpg?width=640&crop=smart&auto=webp&s=e20bafe53659b8dada2c8d9ce858e2f1bb755238",
+      "alt": "carousel item",
+      "tattoo_type": 1
+    },
+    {
+      "id": 3,
+      "url": "https://preview.redd.it/k8n3xi705tlb1.jpg?width=640&crop=smart&auto=webp&s=95b889521fff2e327fee0010e6b23fa5ade447bc",
+      "alt": "carousel item",
+      "tattoo_type": 2
+    },
+    {
+      "id": 4,
+      "url": "https://preview.redd.it/3jvnxsze9tmb1.jpg?width=640&crop=smart&auto=webp&s=3cacf5f2f862543602a5563bc7f01cf3bba71840",
+      "alt": "carousel item",
+      "tattoo_type": 3
+    },
+    {
+      "id": 5,
+      "url": "https://preview.redd.it/q7qmjb5gjtmb1.jpg?width=640&crop=smart&auto=webp&s=153fcc8815347dbcf66ff039aeb3cfdf3f0c043a",
+      "alt": "carousel item",
+      "tattoo_type": 4
+    },
+    {
+      "id": 6,
+      "url": "https://preview.redd.it/gwv2un2nhmpb1.jpg?width=960&crop=smart&auto=webp&s=3f423d8cd26df8a95dde11e9102c1ddd98132b5d",
+      "alt": "carousel item",
+      "tattoo_type": 3
+    },
+    {
+      "id": 7,
+      "url": "https://preview.redd.it/n2ofrvpwao9a1.jpg?width=640&crop=smart&auto=webp&s=f58e601aa0050990486d834e5a01f716c53399b0",
+      "alt": "carousel item",
+      "tattoo_type": 2
+    }
+  ]
+}
