@@ -29,7 +29,10 @@ const Hero = () => {
                 <div className=' text-4xl'>
                     {artists[slide-1].name}
                 </div>
-                <div className='flex justify-center items-center rounded-full'>View Portfolio</div>
+                <div className='flex justify-center items-center rounded-full border-white border p-2 gap-2'>
+                <a  className="rounded-full border w-6 h-6 text-center text-black bg-white">❮</a> 
+                    <div>View Porfolio</div>
+                </div>
                 <div className=" flex gap-12 transform ">
                     <a onClick={slideMinus} href={`#slide${slide}`} className="btn btn-circle ">❮</a> 
                     <a onClick={slidePlus} href={`#slide${slide}`} className="btn btn-circle">❯</a>
